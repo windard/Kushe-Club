@@ -7,3 +7,5 @@ Kushe Club is a projesct which is designed for designers ,it was organized by a 
 
 这里不仅可以一个发挥你的设计天分并进行展示，
 而且还可以在设计T恤中加入你自己感兴趣的内容，以吸引与你有共同兴趣的人。
+
+http:www.aishetuan.me
