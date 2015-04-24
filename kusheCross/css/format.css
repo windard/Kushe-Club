@@ -1,0 +1,117 @@
+body{
+	font-size: 12px;
+	line-height: 1.5;
+	font-family: tahoma,arial,sans-serif;
+	color: #666;
+}
+h3{
+	padding: 30px 0;
+	font-size: 18px;
+}
+.nav-list a{
+	padding: 3px 5px;
+	text-decoration: none;
+	font-size: 13px;
+	_font-size: 12px;
+	line-height: 1.5;
+	color: #444444;
+	border-radius: 2px;
+}
+.new-title {
+	display: block;
+	color: #444444 !important;
+	height: 34px;
+	padding-top: 12px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 13px;
+	font-weight: bold;
+}
+.new-data {
+	height: 34px;
+	padding: 0 10px;
+	font-size: 12px;
+	color: #888888;
+	padding-top: 8px;
+	padding-bottom: 12px;
+}
+
+.daren-title{
+	display: block;
+	color: #444444 !important;
+	padding-top: 52px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+}
+.daren-expertise {
+	margin-top: 12px;
+	font-size: 13px;
+	text-align: center;
+	color: #888;
+}
+
+.notice,.new-content,.daren-desc,.cla-content,.theme-desc,.met-content{
+	background: #fff;
+}
+
+h2{
+	vertical-align: middle;
+	width: 222px;
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+	color: #444444;
+}
+
+.sencond p{
+	height: 14px;
+	line-height: 14px;
+	padding-left: 26px;
+	font-size: 12px;
+	color: #888888;
+}
+.curDir p{
+	color: #444444;
+	line-height: 36px;
+	font-size: 13px;
+}
+.highDir{
+	color: #ff4466;
+}
+
+.re-welcome{
+	color: #f14382;
+	font-size: 16px;
+}
+.wrap-form label{
+	font-weight: normal;
+	padding-right: 10px;
+	font-size: 14px;
+}
+
+.statu-bar{
+	font-size: 14px;
+	color: #888888;
+}
+.statu-num{
+	line-height: 40px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.pop-header{
+	padding: 0;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 46px;
+	border-bottom: 1px solid #ebebeb;
+	overflow: hidden;
+	color: #606060;
+	position: relative;
+}
+
+
