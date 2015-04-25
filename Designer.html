@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>优秀设计师</title>
+	<link rel="stylesheet" href="css/Designer.css">
+	<script src="jquery-2.1.1.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			var html="<ul class='subnav' >"
+						+"<li><a >子导航1</a></li>"
+						+"<li><a >子导航2</a></li>"
+						+"<li><a >子导航3</a></li>"
+						+"<li><a >子导航4</a></li>"
+					+"</ul>";
+			
+			$('.list').append(html);
+			$('.subnav').hide();
+			$('.fenlibutton').on('mouseover', function(event) {
+				event.preventDefault();
+				var x=$(this).position().left,
+					y=$(this).position().top+$(this).outerHeight();
+					alert(typeof(y))
+				$('.subnav').css({
+					'position': 'absolute',
+					'left': x,
+					'top':y+10,
+					'cursor':'pointer'
+				});
+				$('.subnav').show();
+			});
+			$('.subnav').on('mouseover', function() {
+				$('.subnav').show();
+			});
+			$('.subnav').mouseout(function() {
+				$('.subnav').hide();
+			});
+			$('.fenlibutton').mouseout(function() {
+				$('.subnav').hide();
+			});
+		});
+	</script>
+</head>
+<body>
+	<nav style="position:fixed">
+		<div class="logo">
+			<font><a href="#">Kushe Club</a></font>
+		</div>
+		<div class="list">
+			<button value="分类" class="fenlibutton">
+				<h3>分类</h3>
+			</button>
+		</div>
+		<div class="search">
+		
+				<input type="text">
+				<button value="搜索">
+					<h3>搜索</h3>
+				</button>
+		
+		</div>
+		<div class="login">
+			<button value="登陆" class="red">登陆</button>
+			<button value="注册" class="white">注册</button>
+			<div class="others">
+				<a href="#">&nbsp;QQ登陆</a>
+				<a href="#">微信登陆</a>
+			</div>
+		</div>
+	</nav>
+	<section>
+		<div class="asideNav">
+			<ul class="designerList">
+				<div><li><a href="#">&nbsp;优秀作者</a></li></div>
+				<div><li><a href="#">&nbsp;优秀作者</a></li></div>
+				<div><li><a href="#">&nbsp;优秀作者</a></li></div>
+				<div><li><a href="#">&nbsp;优秀作者</a></li></div>
+			</ul>
+		</div>
+		<div class="content">
+			<div class="firstLine">
+				<div class="one">
+					<img src="images/2.jpg" alt="头像" />
+						<div class="info">
+							<h4 class="left">某某某</h4>
+							<h4 class="right">2015 3 28</h4>
+						</div>		
+				</div>
+				<div class="one">
+					<img src="images/2.jpg" alt="头像" />
+						<div class="info">
+							<h4 class="left">某某某</h4>
+							<h4 class="right">2015 3 28</h4>
+						</div>		
+					</div>
+				<div class="one">
+					<img src="images/2.jpg" alt="头像" />
+						<div class="info">
+							<h4 class="left">某某某</h4>
+							<h4 class="right">2015 3 28</h4>
+						</div>			
+				</div>
+				<div class="one">
+					<img src="images/2.jpg" alt="头像" />
+						<div class="info">
+							<h4 class="left">某某某</h4>
+							<h4 class="right">2015 3 28</h4>
+						</div>			
+				</div>
+			</div>
+			<div class="secondLine">
+				<div class="one">
+					<img src="images/2.jpg" alt="头像" />
+						<div class="info">
+							<h4 class="left">某某某</h4>
+							<h4 class="right">2015 3 28</h4>
+						</div>
+				</div>
+				<div class="one">
+					<img src="images/2.jpg" alt="头像" />
+						<div class="info">
+							<h4 class="left">某某某</h4>
+							<h4 class="right">2015 3 28</h4>
+						</div>
+				</div>
+				<div class="one">
+					<img src="images/2.jpg" alt="头像" />
+						<div class="info">
+							<h4 class="left">某某某</h4>
+							<h4 class="right">2015 3 28</h4>
+						</div>
+				</div>
+				<div class="one">
+					<img src="images/2.jpg" alt="头像" />
+					<div class="info">
+						<h4 class="left">某某某</h4>
+						<h4 class="right">2015 3 28</h4>
+					</div>
+			</div>
+			</div>
+			<div class="thridLine">
+				<div class="one">
+					<img src="images/2.jpg" alt="头像" />
+						<div class="info">
+							<h4 class="left">某某某</h4>
+							<h4 class="right">2015 3 28</h4>
+						</div>
+				</div>
+				<div class="one">
+					<img src="images/2.jpg" alt="头像" />
+						<div class="info">
+							<h4 class="left">某某某</h4>
+							<h4 class="right">2015 3 28</h4>
+						</div>
+				</div>
+				<div class="one">
+					<img src="images/2.jpg" alt="头像" />
+						<div class="info">
+							<h4 class="left">某某某</h4>
+							<h4 class="right">2015 3 28</h4>
+						</div>
+				</div>
+				<div class="one">
+					<img src="images/2.jpg" alt="头像" />
+						<div class="info">
+							<h4 class="left">某某某</h4>
+							<h4 class="right">2015 3 28</h4>
+						</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+</body>
+</html>
